@@ -1,0 +1,24 @@
+# Sample IOC feed for nyx-sec-scanner
+# Format: one IOC per line. See docs/IOC-FEED.md for full spec.
+#
+# This sample is for illustration only. Replace with real entries from
+# Socket.dev / OpenSSF Package Analysis / npm advisories.
+#
+# Generated: 2026-05-19
+
+# Wildcard match — every version of these packages is considered compromised
+gauntletjs@*
+
+# Exact-version IOCs (Shai-Hulud Sep 2025 wave)
+@ctrl/tinycolor@4.1.1
+@ctrl/tinycolor@4.1.2
+
+# qix/chalk-debug compromise Sep 2025
+chalk@5.6.1
+debug@4.4.2
+ansi-styles@6.2.2
+
+# nx compromise Aug 2025
+nx@21.5.0
+nx@20.9.0
+@nx/core@21.5.0
