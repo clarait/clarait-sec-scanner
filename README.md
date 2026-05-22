@@ -1,4 +1,4 @@
-# nyx-sec-scanner
+# clarait-sec-scanner
 
 A zero-dependency bash scanner that hardens a developer workstation against the **npm supply-chain worm wave of 2025** (Shai-Hulud, qix/chalk-debug, nx) and produces an **audit-ready report** mapped to ISO 27001:2022 + GDPR/DSGVO + BSI IT-Grundschutz + NIS2 controls.
 
@@ -20,8 +20,8 @@ It is a **scanner**, not an EDR. It detects known IOCs, hardens file permissions
 ## Install
 
 ```bash
-git clone https://github.com/nyxCore-Systems/nyx-sec-scanner.git
-cd nyx-sec-scanner
+git clone https://github.com/clarait/clarait-sec-scanner
+cd clarait-sec-scanner
 chmod +x sec-scan.sh
 sudo install -m 755 sec-scan.sh /usr/local/bin/    # optional: globally available
 ```
